@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toma | Mājaslapa</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar with Light/Dark Mode Toggle -->
+  <nav>
+    <div class="logo">Toms</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button> <!-- Toggle inside navbar -->
+  </nav>
+
+  <!-- Hero Section with particles -->
+  <section class="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content">
+      <h1>Hello, I'm Toms</h1>
+      <p>I'm a programmer. Welcome to my personal homepage!</p>
+      <button class="btn">Let's Connect</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <img src="https://via.placeholder.com/300" alt="Your Photo">
+      <p>Im a programmer from Latvia, and I like programming. My ultimate dream it to become a veternarian and help animals</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <p>HTML</p>
+        <div class="skill-bar"><div data-skill="75%"></div></div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="skill-bar"><div data-skill="85%"></div></div>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="skill-bar"><div data-skill="50%"></div></div>
+      </div>
+      <div class="skill">
+        <p>React</p>
+        <div class="skill-bar"><div data-skill="75%"></div></div>
+      </div>
+      <div class="skill">
+        <p>Python</p>
+        <div class="skill-bar"><div data-skill="45%"></div></div>
+      </div>
+      <div class="skill">
+        <p>Design</p>
+        <div class="skill-bar"><div data-skill="67%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://github.com/t0mzss/Cenu-kalkulators" alt="Project 1">
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>A cool project that does amazing things.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="https://github.com/t0mzss/Majaslapa" alt="Project 2">
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>Another awesome project showcasing my programming skills.</p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Toms Imbrass. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
